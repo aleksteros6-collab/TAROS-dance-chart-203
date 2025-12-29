@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAROS DANCE CHART #203</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #2a004a 0%, #000000 100%);
+            color: #f0e0ff;
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        .chart-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: rgba(30, 0, 60, 0.85);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 0 40px rgba(138, 43, 226, 0.4);
+            border: 1px solid #8a2be2;
+            position: relative;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #ff8c00, #ff4500, #da70d6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
+        }
+        .date {
+            text-align: center;
+            font-size: 1.4em;
+            color: #dda0dd;
+            margin-bottom: 40px;
+        }
+        .liminal-lines {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            pointer-events: none;
+            background: 
+                repeating-linear-gradient(45deg, transparent, transparent 20px, rgba(138, 43, 226, 0.05) 20px, rgba(138, 43, 226, 0.05) 40px),
+                repeating-linear-gradient(-45deg, transparent, transparent 20px, rgba(255, 140, 0, 0.05) 20px, rgba(255, 140, 0, 0.05) 40px);
+            border-radius: 20px;
+            z-index: -1;
+        }
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 8px;
+        }
+        th {
+            background: linear-gradient(to bottom, #8a2be2, #4b0082);
+            color: white;
+            padding: 15px;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        td {
+            padding: 16px 12px;
+            background: rgba(70, 20, 120, 0.6);
+            border-left: 4px solid transparent;
+            transition: all 0.3s ease;
+        }
+        tr:hover td {
+            background: rgba(100, 40, 160, 0.8);
+            border-left: 4px solid #ff8c00;
+            transform: translateX(10px);
+            box-shadow: 0 5px 15px rgba(255, 140, 0, 0.3);
+        }
+        .position {
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #ff8c00;
+            width: 80px;
+        }
+        .peak {
+            font-size: 0.85em;
+            color: #b0a0ff;
+            display: block;
+        }
+        .movement {
+            font-size: 1.1em;
+            font-weight: bold;
+            text-align: center;
+        }
+        .up {
+            color: #00ff9d;
+        }
+        .down {
+            color: #ff4500;
+        }
+        .new {
+            color: #00ff9d;
+            font-weight: bold;
+        }
+        .re {
+            color: #ffa500;
+            font-weight: bold;
+        }
+        .image-placeholder {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(45deg, #4b0082, #8a2be2);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ff8c00;
+            font-weight: bold;
+            font-size: 1em;
+            box-shadow: 0 0 15px rgba(138, 43, 226, 0.6);
+        }
+        .track-title {
+            font-size: 1.25em;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .track-artist {
+            color: #dda0dd;
+            font-size: 0.95em;
+        }
+        .points {
+
+
+color: #ff8c00;
+            font-weight: bold;
+            text-align: center;
+        }
+        .longest {
+            color: #ffd700;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .weeks {
+            text-align: center;
+            color: #b0a0ff;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="chart-container">
+        <div class="liminal-lines"></div>
+        <h1>TAROS DANCE CHART #203</h1>
+        <div class="date">01.01.2026</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Поз</th>
+                    <th></th>
+                    <th>Исполнитель — Трек</th>
+                    <th>Пик / Движение</th>
+                    <th>Недели</th>
+                    <th>Очки</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="position">1<span class="peak">LW: 2</span></td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/6c7157e7-e3ba-43c9-8ce0-eef5b3391139.jpg" alt="Super Flu - Believe (Robin Schulz Rework)" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Super Flu</div><div class="track-artist">Believe (Robin Schulz Rework)</div></td>
+                    <td class="movement up">+1</td>
+                    <td class="weeks">6w</td>
+                    <td class="points">102</td>
+                </tr>
+                <tr>
+                    <td class="position">2<span class="peak">LW: 1</span></td>
+                    <td><img src="https://images.genius.com/0ce2dffe5de04ca2af51edd5f9fb9bbb.1000x1000x1.jpg" alt="Tiga & Meduza - You Gonna Want Me (I Know)" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Tiga & Meduza</div><div class="track-artist">You Gonna Want Me (I Know)</div></td>
+                    <td class="movement down">-1</td>
+                    <td class="weeks">5w</td>
+                    <td class="points">115</td>
+                </tr>
+                <tr>
+                    <td class="position">3<span class="peak">LW: 7</span></td>
+                    <td><img src="https://topmusicarts.com/cdn/shop/files/FEZZO---Kids-_Ableton-Remake_4e6c8d3a-e8a9-4dae-ad13-4aaff39df020_1512x.png?v=1764286067" alt="FEZZO - Kids" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">FEZZO</div><div class="track-artist">Kids</div></td>
+                    <td class="movement up">+4</td>
+                    <td class="weeks">4w</td>
+                    <td class="points">48</td>
+                </tr>
+                <tr>
+                    <td class="position">4<span class="peak">LW: 3</span></td>
+                    <td><img src="https://avatars.yandex.net/get-music-content/15499524/279f1c29.a.38398312-2/m1000x1000" alt="Tres Mortimer - Certified Dirtbag" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Tres Mortimer</div><div class="track-artist">Certified Dirtbag</div></td>
+                    <td class="movement down">-1</td>
+                    <td class="weeks">5w</td>
+                    <td class="points">73</td>
+                </tr>
+                <tr>
+                    <td class="position">5<span class="peak">LW: 16</span></td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/c5b227b5-c5dd-4ad2-88ae-692cfe7b8117.jpg" alt="Emanuel Satie - Give It All" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Emanuel Satie</div><div class="track-artist">Give It All</div></td>
+                    <td class="movement up">+11</td>
+                    <td class="weeks">3w</td>
+                    <td class="points">32</td>
+                </tr>
+                <tr>
+                    <td class="position">6<span class="peak">LW: 5</span></td>
+                    <td><img src="https://i.scdn.co/image/ab67616d0000b2739478d3a9b0e3307c3b5d1f79" alt="ARTBAT - Dance" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">ARTBAT</div><div class="track-artist">Dance</div></td>
+                    <td class="movement down">-1</td>
+                    <td class="weeks">6w</td>
+                    <td class="points">89</td>
+                </tr>
+                <tr>
+                    <td class="position">7<span class="peak">LW: 9</span></td>
+                    <td><img src="https://avatars.yandex.net/get-music-content/14304155/a835fe53.a.39104039-1/m1000x1000" alt="Odd Mob & OMNOM: HYPERBEAM - Coming Up (It's Dare)" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Odd Mob & OMNOM: HYPERBEAM</div><div class="track-artist">Coming Up (It's Dare)</div></td>
+                    <td class="movement up">+2</td>
+                    <td class="weeks">4w</td>
+                    <td class="points">59</td>
+                </tr>
+                <tr>
+                    <td class="position">8<span class="peak">LW: 12</span></td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/830b92ab-b0cf-489e-88db-c24ae5cba965.jpg" alt="Crusy & Jem Cooke - Good To Go" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Crusy & Jem Cooke</div><div class="track-artist">Good To Go</div></td>
+                    <td class="movement up">+4</td>
+                    <td class="weeks">3w</td>
+                    <td class="points">40</td>
+                </tr>
+                <tr>
+                    <td class="position">9<span class="peak">LW: 6</span></td>
+                    <td><img src="https://topmusicarts.com/cdn/shop/files/Anyma_-Solomun---Till-I-Die-_Ableton-Remake_2048x.png?v=1763924627" alt="Solomun & Anyma - Till I Die" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Solomun & Anyma</div><div class="track-artist">Till I Die</div></td>
+                    <td class="movement down">-3</td>
+                    <td class="weeks">8w</td>
+                    <td class="points">157</td>
+                </tr>
+                <tr>
+                    <td class="position">10<span class="peak">LW: 17</span></td>
+                    <td><img src="https://sun9-13.userapi.com/s/v1/ig2/jfjpnqO7UWvXEFM5D5_K8zThzUAGanPcz1eGEfsPO2tMp-UkgEuMkKIP4sYm0WDaQJurdI_kjEE0sAb2TvOoJMPZ.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080,1280x1280,1440x1440,2000x2000&from=bu&cs=2000x0" alt="Mak5D - Bold & Wild" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Mak5D</div><div class="track-artist">Bold & Wild</div></td>
+                    <td class="movement up">+7</td>
+                    <td class="weeks">2w</td>
+                    <td class="points">25</td>
+                </tr>
+                <tr>
+                    <td class="position">11<span class="peak">LW: 4</span></td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/c2698b15-1fed-4490-856d-33edf0befaf2.jpg" alt="Tiga - Bugatti (CID Remix)" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Tiga</div><div class="track-artist">Bugatti (CID Remix)</div></td>
+                    <td class="movement down">-7</td>
+                    <td class="weeks">9w</td>
+                    <td class="points">185</td>
+                </tr>
+                <tr>
+                    <td class="position">12<span class="peak">LW: 15</span></td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/fdae8f62-766f-4f39-871e-84d35096d79f.jpg" alt="Cloonee & Miranda - Vamos A La Playa" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Cloonee & Miranda</div><div class="track-artist">Vamos A La Playa</div></td>
+                    <td class="movement up">+3</td>
+                    <td class="weeks">4w</td>
+                    <td class="points">37</td>
+                </tr>
+                <tr>
+                    <td class="position">13<span class="peak">LW: 20</span></td>
+                    <td><img src="https://avatars.yandex.net/get-music-content/16469857/7fd8f3a6.a.39406844-1/m1000x1000" alt="Confidence Man & JADE - gossip (Chris Lake Remix)" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Confidence Man & JADE</div><div class="track-artist">gossip (Chris Lake Remix)</div></td>
+                    <td class="movement up">+7</td>
+                    <td class="weeks">2w</td>
+                    <td class="points">19</td>
+                </tr>
+                <tr>
+                    <td class="position">14<span class="peak">LW: 8</span></td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/3ee25f33-5b82-448c-8a41-a626eefbfd7a.jpg" alt="Matroda & KLP - Bullshit" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Matroda & KLP</div><div class="track-artist">Bullshit</div></td>
+                    <td class="movement down">-6</td>
+                    <td class="weeks">9w</td>
+                    <td class="points">132</td>
+                </tr>
+                <tr>
+                    <td class="position">15</td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/7735a353-747a-47b1-94cc-355dae0cd739.jpg" alt="Tom & Collins - Disco Musiq" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Tom & Collins</div><div class="track-artist">Disco Musiq</div><span class="new"> NEW</span></td>
+                    <td class="movement new">NEW</td>
+                    <td class="weeks">1w</td>
+                    <td class="points">11</td>
+                </tr>
+                <tr>
+                    <td class="position">16<span class="peak">LW: 11</span></td>
+                    <td><img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/39/85/f939852b-20ff-b2a9-d198-b77dc6425eca/199538885613.jpg/800x800cc.jpg" alt="Prospa - Love Songs (feat. Kosmo Kint)" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Prospa</div><div class="track-artist">Love Songs (feat. Kosmo Kint)</div><span class="longest"> LONGEST CHART SITTER</span></td>
+                    <td class="movement down">-5</td>
+                    <td class="weeks">12w</td>
+                    <td class="points">228</td>
+                </tr>
+                <tr>
+                    <td class="position">17</td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/2c442b72-d5e9-4052-b3a6-c4374a4f861b.jpg" alt="Don't Panic, It's Organic" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">ADR & OUTTEN</div><div class="track-artist">Don't Panic, It's Organic</div><span class="new"> NEW</span></td>
+                    <td class="movement new">NEW</td>
+                    <td class="weeks">1w</td>
+                    <td class="points">9</td>
+                </tr>
+                <tr>
+                    <td class="position">18<span class="peak">LW: 21</span></td>
+                    <td><img src="https://avatars.yandex.net/get-music-content/16406615/b3a35c07.a.39218610-1/m1000x1000" alt="Bring Me To Life" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Tiesto & FORS</div><div class="track-artist">Bring Me To Life</div></td>
+                    <td class="movement up">+3</td>
+                    <td class="weeks">3w</td>
+                    <td class="points">17</td>
+                </tr>
+                <tr>
+                    <td class="position">19<span class="peak">LW: 10</span></td>
+                    <td><img src="https://avatars.yandex.net/get-music-content/15406468/d5a18b20.a.38657265-1/m1000x1000" alt="Think About Us" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Sonny Fodera & D.O.D & Poppy Baskcomb</div><div class="track-artist">Think About Us</div></td>
+                    <td class="movement down">-9</td>
+                    <td class="weeks">7w</td>
+                    <td class="points">156</td>
+                </tr>
+                <tr>
+                    <td class="position">20</td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/9088c65a-3bae-4e87-8843-d55de370ce24.jpg" alt="Your Mind (HNTR Remix)" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Adam Beyer & Bart Skills</div><div class="track-artist">Your Mind (HNTR Remix)</div><span class="new"> NEW</span></td>
+                    <td class="movement new">NEW</td>
+                    <td class="weeks">1w</td>
+                    <td class="points">6</td>
+                </tr>
+                <tr>
+                    <td class="position">21<span class="peak">LW: 13</span></td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/1e90843e-0d53-4fb0-a1f1-7f4d006708db.jpg" alt="I Cannot" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Anti Up</div><div class="track-artist">I Cannot</div></td>
+                    <td class="movement down">-8</td>
+                    <td class="weeks">7w</td>
+                    <td class="points">96</td>
+                </tr>
+                <tr>
+                    <td class="position">22<span class="peak">LW: 14</span></td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/b4374830-48b2-4dd4-bda1-77132b905bfb.jpg" alt="Sound of You" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">ANOTR & TEED</div><div class="track-artist">Sound of You</div></td>
+                    <td class="movement down">-8</td>
+                    <td class="weeks">6w</td>
+                    <td class="points">57</td>
+                </tr>
+                <tr>
+                    <td class="position">23</td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/1a12d2b5-fdc7-4e5f-9d1c-c2741b22e6c0.jpg" alt="Get With You Tonight (Jay Vegas Disco Dub)" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Mark Knight & Lukas Setto</div><div class="track-artist">Get With You Tonight (Jay Vegas Disco Dub)</div><span class="new"> NEW</span></td>
+                    <td class="movement new">NEW</td>
+                    <td class="weeks">1w</td>
+                    <td class="points">3</td>
+                </tr>
+                <tr>
+                    <td class="position">24<span class="peak">LW: 18</span></td>
+                    <td><img src="https://lmusic.kz/images/cover/oliver-heldens-open-your-heart.jpeg" alt="Open Your Heart" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Oliver Heldens</div><div class="track-artist">Open Your Heart</div></td>
+                    <td class="movement down">-6</td>
+                    <td class="weeks">11w</td>
+                    <td class="points">136</td>
+                </tr>
+                <tr>
+                    <td class="position">25</td>
+                    <td><img src="https://geo-media.beatport.com/image_size/1400x1400/dc790757-8bde-449d-8221-6d1f6c9f791e.jpg" alt="Pull Up" style="width:60px;height:60px;border-radius:10px;" class="cover-img"></td>
+                    <td><div class="track-title">Discip</div><div class="track-artist">Pull Up</div><span class="new"> NEW</span></td>
+                    <td class="movement new">NEW</td>
+                    <td class="weeks">1w</td>
+                    <td class="points">1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
